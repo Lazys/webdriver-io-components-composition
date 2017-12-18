@@ -7,7 +7,7 @@ describe('HomePage', () => {
 
     describe('Header', () => {
 
-        it('NavLinksShouldHaveCorrectValues', () => {
+        it('SignUpBtn should have correct values', () => {
             HomePage.navigate();
 
             let menuItem = HomePage.getHeader().getSignUpBtn();
@@ -20,7 +20,7 @@ describe('HomePage', () => {
 
     describe('Jumbotron', () => {
 
-        it('NavLinksShouldHaveCorrectValues', () => {
+        it('SignUpBtn should have correct values', () => {
             HomePage.navigate();
 
             let menuItem = HomePage.getSignUpBtn();
@@ -33,7 +33,7 @@ describe('HomePage', () => {
 
     describe('WidgetsMenu', () => {
 
-        it('NavLinksShouldHaveCorrectValues', () => {
+        it('Menu items should have correct text', () => {
             HomePage.navigate();
 
             let menuItem = HomePage.getWidgetsMenu().getMenuItemByIndex(1);
@@ -45,7 +45,7 @@ describe('HomePage', () => {
 
     describe('Content', () => {
 
-        it('NavLinksShouldHaveCorrectValues', () => {
+        it('Menu items should have correct text', () => {
             HomePage.navigate();
 
             let menuItem = HomePage.getMenuItemByIndex(1);
